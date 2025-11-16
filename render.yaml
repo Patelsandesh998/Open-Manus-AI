@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: navaai-backend
+    env: python
+    plan: free  # or starter
+    buildCommand: |
+      pip install --upgrade pip
+      pip install -r requirements.txt --cache-dir /opt/render/.cache/pip
+    startCommand: uvicorn api:app --host 0.0.0.0 --port 10000
+    rootDir: backend
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: PYTHON_VERSION
+        value: 3.11.9

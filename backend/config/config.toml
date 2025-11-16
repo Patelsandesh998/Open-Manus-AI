@@ -1,0 +1,18 @@
+# backend/config/config.toml
+
+[llm]
+model = "minimax/minimax-m2"
+base_url = "https://openrouter.ai/api/v1"
+api_key = "${LLM_API_KEY}"
+max_tokens = 8192
+temperature = 0.0
+
+[llm.vision]
+model = "claude-3-7-sonnet-20250219"
+base_url = "https://api.anthropic.com/v1/"
+api_key = "${VISION_API_KEY}"
+max_tokens = 8192
+temperature = 0.0
+
+[daytona]
+daytona_api_key = "${DAYTONA_API_KEY}"

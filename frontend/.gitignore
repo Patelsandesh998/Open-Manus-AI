@@ -1,0 +1,100 @@
+# ===========================================
+# GENERAL
+# ===========================================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+
+# ===========================================
+# NODE / FRONTEND (React + Vite)
+# ===========================================
+node_modules/
+dist/
+build/
+.vite/
+.vscode/
+coverage/
+.env
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+vite.config.ts.timestamp-*
+
+# ===========================================
+# PYTHON / BACKEND (FastAPI)
+# ===========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+.env
+.env.*
+venv/
+env/
+.venv/
+pip-wheel-metadata/
+*.egg-info/
+*.egg
+MANIFEST
+migrations/
+instance/
+.cache/
+.pytest_cache/
+coverage.xml
+htmlcov/
+
+# ===========================================
+# DOCKER
+# ===========================================
+**/.dockerignore
+docker-compose.override.yml
+*.tar
+*.bak
+*.pid
+*.sock
+logs/
+tmp/
+!Dockerfile
+
+# ===========================================
+# IDE / SYSTEM FILES
+# ===========================================
+.idea/
+.vscode/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# ===========================================
+# TEST / TEMP FILES
+# ===========================================
+test-results/
+tmp/
+sandbox/
+*.bak
+*.tmp
+*.old
+
+# ===========================================
+# FRONTEND BUILD OUTPUT
+# ===========================================
+Nava AI/dist/
+frontend/dist/
+sandbox-frontend/dist/
+
+# ===========================================
+# BACKEND BUILD OUTPUT
+# ===========================================
+__build__/
+__dist__/
+backend/__pycache__/
+aio_sandbox_service/__pycache__/

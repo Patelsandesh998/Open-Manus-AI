@@ -1,0 +1,39 @@
+{
+  "name": "navaai-backend",
+  "version": "1.0.0",
+  "description": "Backend server for Nava AI using Express, Passport, MongoDB, and i18n.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "passport",
+    "mongodb",
+    "i18n",
+    "navaai"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.19.2",
+    "express-session": "^1.17.3",
+    "i18next": "^23.6.0",
+    "i18next-fs-backend": "^2.6.0",
+    "i18next-http-middleware": "^3.8.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.3",
+    "node-fetch": "^3.3.2",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
